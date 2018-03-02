@@ -1,4 +1,4 @@
-# git-cheat-sheet
+# git-cheatsheet
 * [Links](#links)
 
 ## Links
