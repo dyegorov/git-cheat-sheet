@@ -93,6 +93,7 @@ In that case use: 
 ```
 git rm -r --cached myFolder 
 ```
+
 ## Links
 * [Pro Git](https://git-scm.com/book/ru/v2)
 * [eax.me](https://eax.me/git-commands/)
