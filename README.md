@@ -39,6 +39,16 @@ $ git log --pretty=oneline
 $ git show fe1fa9933a125d23e096d0bf2f0215b32dedab43
 $ git show HEAD
 ```
+## View tags
+```
+$ git tag
+$ git tag -l 'v0.1*'
+v0.1.0
+```
+## Add tag
+```
+$ git tag -a v0.1.0 -m 'tag'
+```
 ## Undo changes 
 ```
 $ git checkout -f 
