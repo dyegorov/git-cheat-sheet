@@ -46,8 +46,13 @@ $ git tag -l 'v0.1*'
 v0.1.0
 ```
 ## Add tag
+To current commit
 ```
 $ git tag -a v0.1.0 -m 'tag'
+```
+To existing commit
+```
+$ git tag -a v0.0.0 -m 'initial' b220eb
 ```
 ## Undo changes 
 ```
@@ -62,6 +67,10 @@ $ git push -u origin --all
 Later: 
 ```
 $ git push 
+```
+Tags are not automatically pushed to remote. U need to:
+```
+$ git push --tags
 ```
 ## Push changes to Heroku 
 ```
