@@ -29,6 +29,16 @@ $ git commit -a -m "Improved readme"
 ```
 $ git status 
 ```
+## View log history
+```
+$ git log
+$ git log --pretty=oneline
+```
+## View changes in commit
+```
+$ git show fe1fa9933a125d23e096d0bf2f0215b32dedab43
+$ git show HEAD
+```
 ## Undo changes 
 ```
 $ git checkout -f 
