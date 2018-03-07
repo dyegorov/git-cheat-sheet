@@ -33,6 +33,7 @@ $ git status
 ```
 $ git log
 $ git log --pretty=oneline
+$ git log --pretty=format:"%h - %an, %ar : %s"
 ```
 ## View changes in commit
 ```
