@@ -17,6 +17,10 @@ $ git add -A
 ```
 $ git remote add origin git@bitbucket.org:di_ego/pennyroyal.git 
 ```
+## View remote repo
+```
+$ git remote show origin
+```
 ## Commit git 
 ```
 $ git commit -m "Init repo" 
