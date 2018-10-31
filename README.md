@@ -147,3 +147,6 @@ git rm -r --cached myFolder
 * [Pro Git](https://git-scm.com/book/ru/v2)
 * [eax.me](https://eax.me/git-commands/)
 * [Branching](https://habrahabr.ru/post/106912/)
+* [git flow](https://github.com/nvie/gitflow)
+* [git flow cheatsheet](https://danielkummer.github.io/git-flow-cheatsheet/index.ru_RU.html)
+* [sourcetree](https://www.sourcetreeapp.com/)
