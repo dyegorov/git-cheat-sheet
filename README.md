@@ -60,6 +60,21 @@ To existing commit
 ```
 $ git tag -a v0.0.0 -m 'initial' b220eb
 ```
+## Checkout tag
+```
+git checkout -b version2 v2.0.0
+```
+## Remove tag
+```
+$ git tag -d v1.4-lw
+Deleted tag 'v1.4-lw' (was e7d5add)
+```
+To update remote servers
+```
+$ git push origin :refs/tags/v1.4-lw
+To /git@github.com:schacon/simplegit.git
+ - [deleted]         v1.4-lw
+```
 ## Undo changes 
 ```
 $ git checkout -f 
