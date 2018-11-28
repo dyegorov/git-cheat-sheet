@@ -28,6 +28,16 @@ $ git commit -a -m "Improved readme"
 ```
 * Commits are LOCAL. U need to PUSH to remote repo 
 * Be carefull using -a. If new files were added u should git add -A first 
+
+# Undo commit
+(https://stackoverflow.com/questions/927358/how-do-i-undo-the-most-recent-commits-in-git)
+```
+$ git commit -m "Something terribly misguided"             # (1)
+$ git reset HEAD~                                          # (2)
+<< edit files as necessary >>                              # (3)
+$ git add ...                                              # (4)
+$ git commit -c ORIG_HEAD                                  # (5)
+```
  
 # View repo status 
 ```
